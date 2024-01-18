@@ -61,7 +61,7 @@ def get_locations(params: str) -> List[Location]:
 
 
 def get_most_recent_transmission(location: Location) -> Transmission:
-    location.MostRecentLocation = cursor.execute(
+    location.MostRecentTransmission = cursor.execute(
         GET_MOST_RECENT_TRANSMISSION_FOR_EACH_ACTIVE_LOCATION,
         {f"LocationID": location.ID},
     ).bind(Transmission)
