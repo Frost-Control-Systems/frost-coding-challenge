@@ -29,7 +29,7 @@ cursor = pyodbc.connect("...").cursor()
 GET_TRANSMISSIONS = ""  # hypothetical SQL query
 GET_FORECASTS = ""  # hypothetical SQL query
 GET_LOCATIONS = ""  # hypothetical SQL query
-GET_MOST_RECENT_TRANSMISSION_FOR_EACH_ACTIVE_LOCATION = ""  # hypothetical SQL query
+GET_MOST_RECENT_TRANSMISSION = ""  # hypothetical SQL query
 GET_FORECASTS = ""  # hypothetical SQL query
 
 
